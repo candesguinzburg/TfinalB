@@ -11,9 +11,13 @@
       "dest": "/app.js"
     },
     {
-      "src": "/.*",
+      "src": "/users/.*",
       "dest": "/app.js"
     },
+    {
+        "src": "/mostrar/.*",
+        "dest": "/app.js"
+      },
     {
       "src": "/(.*)",
       "dest": "/app.js"
