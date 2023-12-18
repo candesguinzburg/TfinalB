@@ -75,6 +75,13 @@ router.post("/login", async (req, res) => {
   }
 })
 
+router.get("/sendMail", async (req, res) => {
+  const sendmail = 
+  res.json(
+    'enviando mails'
+  )
+})
+
 /* mandar mail */
 router.post("/sendMail", async (req, res) => {
   try {
