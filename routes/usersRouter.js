@@ -14,9 +14,9 @@ router.get("/", async (req, res) => {
 })
 router.get("/create", async (req, res) => {
   const create = 
-  res.json({
+  res.json(
     'creando usuarios'
-  })
+  )
 })
 /* crear usuario */
 router.post("/create", async (req, res) => {
