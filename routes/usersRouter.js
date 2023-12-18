@@ -12,7 +12,12 @@ router.get("/", async (req, res) => {
     users: users,
   })
 })
-
+router.get("/create", async (req, res) => {
+  const create = 
+  res.json({
+    'creando usuarios'
+  })
+})
 /* crear usuario */
 router.post("/create", async (req, res) => {
   const { nombre, mail, password } = req.body
