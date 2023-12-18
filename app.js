@@ -33,7 +33,7 @@ app.use((req, res, next) => {
   res.status(404).json({ mensaje: 'Ruta no encontrada' })
 })
 
-app.options('/users/sendQuery', cors({ origin: 'http://localhost:3000', credentials: true }))
+app.options('/users/sendMail', cors())
 
 
 // catch 404 and forward to error handler
