@@ -6,7 +6,7 @@
         "handle": "filesystem"
       },
       {
-        "src": "/users/.*",
+        "src": "/.*",
         "dest": "/app.js"
       }
     ]
