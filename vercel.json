@@ -1,17 +1,15 @@
-{
+
+  {
+    "version": 2,
     "routes": [
       {
-        "src": "/users/.*",
-        "dest": "/app.js"
+        "handle": "filesystem"
       },
       {
         "src": "/.*",
         "dest": "/app.js"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/app.js"
       }
     ]
   }
+  
   
