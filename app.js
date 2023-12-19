@@ -13,7 +13,7 @@ require('./models/conexion')
 const PORT = process.env.PORT
 app.set('port', PORT);
 
-app.use(cors('https://tf-front-candeguinzburg-gmailcom.vercel.app/'))
+app.use(cors({ origin: 'https://tf-front-candeguinzburg-gmailcom.vercel.app/', credentials: true  }))
 app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
